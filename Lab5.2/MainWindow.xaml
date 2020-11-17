@@ -1,0 +1,22 @@
+﻿<Window x:Class="Lab5._2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lab5._2"
+        mc:Ignorable="d"
+        Title="Cone builder" Height="450" Width="800">
+    <Grid Margin="0,0,3.6,0">
+
+        <TextBox x:Name="RadiusBox" HorizontalAlignment="Center" Height="40" Margin="84,51,506,329" TextWrapping="Wrap" Text="Enter R" VerticalAlignment="Center" Width="200"/>
+        <TextBox x:Name="HBox" HorizontalAlignment="Center" Height="40" Margin="84,110,506,270" TextWrapping="Wrap" Text="Enter H" VerticalAlignment="Center" Width="200"/>
+        <Button Content="Button" HorizontalAlignment="Center" Margin="343,150,327,247" VerticalAlignment="Center" Width="120" Height="23" Click="Button_Click"/>
+        <TextBox x:Name="Radius1Box" HorizontalAlignment="Center" Height="40" Margin="84,167,506,213" TextWrapping="Wrap" Text="Enter R1" VerticalAlignment="Center" Width="200"/>
+        <TextBox x:Name="hBox" HorizontalAlignment="Center" Height="40" Margin="84,234,506,146" TextWrapping="Wrap" Text="Enter h" VerticalAlignment="Center" Width="200"/>
+        <TextBox x:Name="S" HorizontalAlignment="Right" Height="40" Margin="0,51,68,329" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Width="200" IsEnabled="False"/>
+        <TextBox x:Name="V" HorizontalAlignment="Right" Height="40" Margin="0,110,68,270" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Width="200" IsEnabled="False"/>
+        <TextBox x:Name="s" HorizontalAlignment="Right" Height="40" Margin="0,167,68,213" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Width="200" IsEnabled="False"/>
+        <TextBox x:Name="v" HorizontalAlignment="Right" Height="40" Margin="0,234,68,146" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Width="200" IsEnabled="False"/>
+
+    </Grid>
+</Window>
